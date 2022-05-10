@@ -59,3 +59,22 @@
   border-radius: 5px;
   background-color: #fff;
 }
+
+#output {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.image {
+   height: 100px;
+}
+
+.div-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 200px;
+   padding: 20px;
+}
