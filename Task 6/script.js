@@ -19,3 +19,19 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
+
+const ageArr = users.map((element) => element.age);
+
+function getUserAverageAge (arr) {
+  const initialValue = 0;
+    return Math.round((arr.reduce((previouseValue, currentValue) => 
+      previouseValue + currentValue, initialValue)) / ageArr.length)
+};
+
+console.log(getUserAverageAge(ageArr));
+
+function getUsersNames(usersArr) {
+  return usersArr.map((element) => element.name)
+};
+
+console.log(getUsersNames(users));
