@@ -27,3 +27,18 @@
   margin-top: 50px;
   color: #333;
 }
+
+
+#output {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.div-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 20px;
+}
